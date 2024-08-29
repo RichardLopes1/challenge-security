@@ -19,70 +19,6 @@ body {
 	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 }
    
-/*Barra de navegação*/
-#cabecalho {
-	width: 100%;
-	margin: 0 auto;
-    background-color: var(--azul);
-}
-    
-#logo{
-    
-    text-indent: -1300px;
-    display: block;
-    text-align: center;
-    font-size: 18px;
-    color: var(--branco);
-  
-}
-
-
-
-#logo span{
-    color: var(--azul_logo);
-}
-
-header{
-    padding: 5px 0;
-    height: 100px;
-    
-}
-
-#cabecalho nav ul {
-	list-style: none;
-	float: right;
-    
-}
-
-nav ul li {
-	float: left;
-    
-}
-nav ul li a{
-    color: var(--preto);
-    font-size: 13px;
-    
-}
-
-nav ul li a:link {
-	display: block;
-    text-decoration: none;
-    color: var(--branco);
-	margin-right: 25px;
-	padding-bottom: 3px;
-	text-transform: uppercase;
-    
-}
-
-nav ul  #atual a{
-    text-decoration:underline;
-    color: var(--branco);
-    border-radius: 5px;
-}
-
-nav ul li a:hover {
-    color: var(--branco);
-}/*fim da barra de navegação*/
 
 
 
@@ -123,6 +59,11 @@ h2{
 
 }
 
+.container-grid a{
+    text-decoration: none;
+    color: var(--preto);
+}
+
 @keyframes animacao-card {
     from{
         background: white;
@@ -152,6 +93,8 @@ h2{
   justify-content: center;
   padding-top: 30px;
 }
+
+
 /*fim dos cards*/
 
 
