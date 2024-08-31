@@ -1,3 +1,12 @@
+/*variaveis das cores utilizadas no site*/
+
+:root{
+    --azul_logo:#03346E;
+    --azul: #0095d4;
+    --preto: #000000;
+    --branco: #ffffff;
+} /*fim das variaveis*/
+
 /*Barra de navegação*/
 #cabecalho {
 	width: 100%;
