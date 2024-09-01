@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*variaveis das cores utilizadas no site*/
+
+:root{
+    --azul_logo:#03346E;
+    --azul: #0095d4;
+    --preto: #000000;
+    --branco: #ffffff;
+    --verde: #59ce72;
+} /*fim das variaveis*/
+
+
+body {
+	
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+/*inicio conteudo*/
+
+.container{
+    
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    line-height: 2.3rem;
+    margin-top: 2rem;
+}
+.container h1{
+    font-weight:lighter;
+}
+.img_mecanico{
+   
+    margin-left: 2rem;
+    
+    
+}
+
+.img_mecanico img{
+    height: 300px;
+}

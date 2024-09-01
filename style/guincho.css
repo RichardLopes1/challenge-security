@@ -67,3 +67,60 @@ body {
     width: 4rem;
 }
 
+/*estilização conteudos*/
+
+
+.servicos_rapido h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+
+}
+
+.servicos_rapido p{
+    text-align: center;
+    font-size: 15px;
+    padding: 0 170px 0 170px;
+  
+}
+
+.maps{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 1.2rem;
+   
+}
+.maps iframe{
+    height: 500px;
+    width: 500px;
+    display: block;
+    border: none;
+}
+
+.text_maps{
+    display:grid;
+    width: 500px;
+    line-height: 2.3rem;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_maps h5{
+    font-size: 1.2rem;
+   
+}
+
+footer{
+    position:absolute;
+    height: 3rem;
+    width: 100%;
+    color: var(--branco);
+    background-color: var(--preto);
+    text-align: center;
+    margin-top: 2rem;
+}
+
