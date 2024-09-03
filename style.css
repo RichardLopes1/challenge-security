@@ -78,7 +78,7 @@ h2{
 
 
 .card {
-    background-color: #eeeeee;
+    background-color: var(--branco);
     width: 15rem;
     height: 15rem; 
     text-align: center;
